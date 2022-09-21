@@ -2,29 +2,26 @@
 
 package TestCases;
 
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.poi.ss.util.CellReference;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.LogStatus;
 
 import Pages.LoginPage;
 
 public class SimplilearnLoginTest extends BaseClass{
 	@Test
-	public void Test1() {
+	public void Test1()  throws InterruptedException{
+		
+test.log(LogStatus.INFO,"Test1 started");
 
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.Login("abc@xyz.com","Test@1234");
-		
+		System.out.println("test1 passed and executed");
 		
 		
 		//Step6: Validate the error message on screen
@@ -33,21 +30,24 @@ public class SimplilearnLoginTest extends BaseClass{
 		String ActError = Error.getText();
 		String ExpError = "The email or password you have entered is invalid.";
 		
-		Assert.assertTrue(Error.isDisplayed());
-		Assert.assertEquals(ActError, ExpError);
+		AssertJUnit.assertTrue(Error.isDisplayed());
+		AssertJUnit.assertEquals(ActError, ExpError);
 			
 	}
 	
 	@Test
 	@Parameters({"uname","pwd"})
-	public void Test2(String username, String password) {
+	public void Test2(String UserName, String Password) {
+		test.log(LogStatus.INFO, "Test2 started");
 		LoginPage lp = new LoginPage(driver);
-		lp.Login(username,password);
-		
+		lp.Login(UserName,Password);
+		System.out.println("test2 passed and executed");
 		
 	}
 	@Test
 	public void Test3() {
+		test.log(LogStatus.INFO,"Test3 started");
+	
 		
 		
 		
@@ -56,6 +56,7 @@ public class SimplilearnLoginTest extends BaseClass{
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.Login(UserName,Password);
+		System.out.println("test3 passed and executed");
 	}
 	
 	

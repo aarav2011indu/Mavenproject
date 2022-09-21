@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
 
 public class LoginPage {
 
@@ -18,7 +19,7 @@ public class LoginPage {
 	@FindBy(name = "user_login")
 	WebElement UserName;
 	
-	@FindBy(id = "pass")
+	@FindBy(id = "password")
 	WebElement Password;
 	
 	@FindBy(className = "rememberMe")
@@ -35,6 +36,7 @@ public class LoginPage {
 	
 	// ***************** Methods **************************************
 	
+	@Test
 	public void Login(String UserNameVal, String PassVal) {
 
 		// Step1. Click on the Login Link

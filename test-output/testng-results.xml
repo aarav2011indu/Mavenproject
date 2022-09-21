@@ -1,235 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="0" failed="3" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-11T10:52:00 IST" name="Default suite" finished-at="2022-09-11T10:52:32 IST" duration-ms="31181">
+  <suite started-at="2022-09-21T13:02:53 IST" name="Suite" finished-at="2022-09-21T13:03:35 IST" duration-ms="42245">
     <groups>
     </groups>
-    <test started-at="2022-09-11T10:52:00 IST" name="Default test" finished-at="2022-09-11T10:52:32 IST" duration-ms="31181">
+    <test started-at="2022-09-21T13:02:53 IST" name="Test" finished-at="2022-09-21T13:03:35 IST" duration-ms="42245">
       <class name="TestCases.SimplilearnLoginTest">
-        <test-method is-config="true" signature="DataSetUp()[pri:0, instance:TestCases.SimplilearnLoginTest@32b260fa]" started-at="2022-09-11T10:52:00 IST" name="DataSetUp" finished-at="2022-09-11T10:52:01 IST" duration-ms="346" status="PASS">
+        <test-method is-config="true" signature="DataSetUp()[pri:0, instance:TestCases.SimplilearnLoginTest@1b2abca6]" started-at="2022-09-21T13:02:53 IST" name="DataSetUp" finished-at="2022-09-21T13:02:53 IST" duration-ms="422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataSetUp -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestCases.SimplilearnLoginTest@32b260fa]" started-at="2022-09-11T10:52:01 IST" name="SetUp" finished-at="2022-09-11T10:52:03 IST" duration-ms="2343" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:TestCases.SimplilearnLoginTest@1b2abca6]" started-at="2022-09-21T13:02:53 IST" name="SetUp" finished-at="2022-09-21T13:02:56 IST" duration-ms="2489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.SimplilearnLoginTest.Test1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Test1()[pri:0, instance:TestCases.SimplilearnLoginTest@32b260fa]" started-at="2022-09-11T10:52:03 IST" name="Test1" finished-at="2022-09-11T10:52:15 IST" duration-ms="11807" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-VRCUDKR5', ip: '192.168.100.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\indus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6efe050f41e5932f193b916093dc4bb0
-*** Element info: {Using=id, value=pass}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-VRCUDKR5', ip: '192.168.100.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\indus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6efe050f41e5932f193b916093dc4bb0
-*** Element info: {Using=id, value=pass}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
-at Pages.LoginPage.Login(LoginPage.java:47)
-at TestCases.SimplilearnLoginTest.Test1(SimplilearnLoginTest.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="Test1()[pri:0, instance:TestCases.SimplilearnLoginTest@1b2abca6]" started-at="2022-09-21T13:02:56 IST" name="Test1" finished-at="2022-09-21T13:03:07 IST" duration-ms="11099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.SimplilearnLoginTest@32b260fa]" started-at="2022-09-11T10:52:15 IST" name="TearDown" finished-at="2022-09-11T10:52:17 IST" duration-ms="2468" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.SimplilearnLoginTest@1b2abca6]" started-at="2022-09-21T13:03:07 IST" name="TearDown" finished-at="2022-09-21T13:03:07 IST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method signature="Test2(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimplilearnLoginTest@32b260fa]" started-at="2022-09-11T10:52:17 IST" name="Test2" finished-at="2022-09-11T10:52:17 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'uname' is required by @Test on method Test2 but has not been marked @Optional or defined
-in C:\Users\indus\AppData\Local\Temp\testng-eclipse--2142682956\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'uname' is required by @Test on method Test2 but has not been marked @Optional or defined
-in C:\Users\indus\AppData\Local\Temp\testng-eclipse--2142682956\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestCases.SimplilearnLoginTest@32b260fa]" started-at="2022-09-11T10:52:17 IST" name="SetUp" finished-at="2022-09-11T10:52:20 IST" duration-ms="2067" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:TestCases.SimplilearnLoginTest@1b2abca6]" started-at="2022-09-21T13:03:07 IST" name="SetUp" finished-at="2022-09-21T13:03:09 IST" duration-ms="1959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.SimplilearnLoginTest.Test2(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Test3()[pri:0, instance:TestCases.SimplilearnLoginTest@32b260fa]" started-at="2022-09-11T10:52:20 IST" name="Test3" finished-at="2022-09-11T10:52:29 IST" duration-ms="9691" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-VRCUDKR5', ip: '192.168.100.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\indus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bfd58751f4a8b5db7ba5397b450ca3d1
-*** Element info: {Using=id, value=pass}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-VRCUDKR5', ip: '192.168.100.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\indus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bfd58751f4a8b5db7ba5397b450ca3d1
-*** Element info: {Using=id, value=pass}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
-at Pages.LoginPage.Login(LoginPage.java:47)
-at TestCases.SimplilearnLoginTest.Test3(SimplilearnLoginTest.java:59)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="Test2(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimplilearnLoginTest@1b2abca6]" started-at="2022-09-21T13:03:09 IST" name="Test2" finished-at="2022-09-21T13:03:18 IST" duration-ms="9177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.SimplilearnLoginTest@32b260fa]" started-at="2022-09-11T10:52:29 IST" name="TearDown" finished-at="2022-09-11T10:52:32 IST" duration-ms="2406" status="PASS">
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.SimplilearnLoginTest@1b2abca6]" started-at="2022-09-21T13:03:18 IST" name="TearDown" finished-at="2022-09-21T13:03:20 IST" duration-ms="2418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="DataClean()[pri:0, instance:TestCases.SimplilearnLoginTest@32b260fa]" started-at="2022-09-11T10:52:32 IST" name="DataClean" finished-at="2022-09-11T10:52:32 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:TestCases.SimplilearnLoginTest@1b2abca6]" started-at="2022-09-21T13:03:20 IST" name="SetUp" finished-at="2022-09-21T13:03:22 IST" duration-ms="2135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.SimplilearnLoginTest.Test3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Test3()[pri:0, instance:TestCases.SimplilearnLoginTest@1b2abca6]" started-at="2022-09-21T13:03:22 IST" name="Test3" finished-at="2022-09-21T13:03:32 IST" duration-ms="9537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.SimplilearnLoginTest@1b2abca6]" started-at="2022-09-21T13:03:32 IST" name="TearDown" finished-at="2022-09-21T13:03:34 IST" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="DataClean()[pri:0, instance:TestCases.SimplilearnLoginTest@1b2abca6]" started-at="2022-09-21T13:03:34 IST" name="DataClean" finished-at="2022-09-21T13:03:35 IST" duration-ms="501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataClean -->
       </class> <!-- TestCases.SimplilearnLoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
